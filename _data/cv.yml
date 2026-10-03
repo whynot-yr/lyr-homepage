@@ -1,0 +1,79 @@
+cv:
+  name: Yiran Li (李怡然)
+  label: Undergraduate Student in Computer Science
+  email: lyr070301@gmail.com
+  phone: "+86 13310951061"
+  website: https://reader001-guius.github.io
+  summary: Undergraduate student at the University of Electronic Science and Technology of China (UESTC), interested in robotic perception, multimodal 3D perception, embodied AI, scene representation, and vision-language models.
+
+  social_networks:
+    - network: GitHub
+      username: reader001-guius
+    - network: LinkedIn
+      username: yiran-li-41b0143b5
+
+  sections:
+    Education:
+      - institution: University of Electronic Science and Technology of China (UESTC)
+        location: Sichuan, China
+        area: Computer Science and Technology, Zhufeng Program
+        studyType: Undergraduate
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - "GPA: 3.89/4.0"
+
+    Experience:
+      - company: Tsinghua AIR / Qiuzhi Technology
+        position: Research Intern
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - "Advisor: Prof. Guye Zhou (周谷越)."
+          - Reproduced, fine-tuned, and deployed pi-0.5/OpenPI on NERO Songling and Qiuzhi robotic arms, working across data collection, training, inference services, and robot control interfaces.
+          - Fine-tuned and deployed policies for multiple real-world manipulation tasks.
+          - Studied the fusion of visual, proprioceptive, and tactile modalities in VLA models, comparing VLM-prefix versus action-expert designs, single-frame versus temporal tactile inputs, and gating mechanisms for contact perception and error recovery.
+      - company: Tsinghua University (remote)
+        position: Undergraduate Research Assistant
+        start_date: 2026-03
+        end_date: 2026-06
+        highlights:
+          - "Advisor: Prof. Yang Gao (高阳)."
+          - Improved Open-EQA / R-EQA baselines through visual retrieval, long-term memory, and multimodal reasoning for complex 3D scenes and historical visual observations.
+          - Built a mini-R-EQA framework that extracts semantics from visual observations with a VLM and combines retrieval-augmented scene memory with embodied question answering.
+          - Raised a core Open-EQA benchmark metric from approximately 0.264 to 0.320 (about 21%) through experiments and ablations.
+
+    Projects:
+      - name: Bridge Surface Defect Detection
+        start_date: 2026-01
+        end_date: 2026-03
+        summary: China Collegiate Computing Competition project and technical report.
+        highlights:
+          - Built a computer vision pipeline for detecting defects on bridge surfaces from drone imagery.
+          - Implemented and trained a YOLO11 model to identify and localize defects in bridge inspection data.
+      - name: Deep Learning Self-Study
+        start_date: 2025-12
+        end_date: 2026-01
+        highlights:
+          - Studied MLPs, CNNs, Transformers, and ViTs, and implemented and trained core models in PyTorch.
+          - Studied attention, self-attention, visual encoders, positional encodings, and Transformer blocks.
+          - Reproduced visual models and compared training workflows, loss functions, optimization methods, and performance across architectures.
+
+    Interests:
+      - name: Research
+        keywords:
+          - Robotic perception
+          - Multimodal 3D perception
+          - Embodied AI
+          - Scene representation
+          - Vision-language models
+
+    Skills:
+      - name: Programming
+        keywords: [Python]
+      - name: Machine Learning
+        keywords: [PyTorch, Deep learning training and evaluation, Transformer fundamentals]
+      - name: Tools
+        keywords: [Git, GitHub, Linux, LaTeX]
+      - name: Computing
+        keywords: [Remote GPU servers, Linux and cloud experiments]
