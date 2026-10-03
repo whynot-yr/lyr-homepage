@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://whynot-yr.github.io/lyr-homepage/sitemap.xml
